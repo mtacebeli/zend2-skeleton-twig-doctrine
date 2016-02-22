@@ -1,0 +1,27 @@
+{
+  "name": "zendframework/skeleton-application",
+  "description": "Skeleton Application for ZF2",
+  "license": "BSD-3-Clause",
+  "keywords": [
+    "framework",
+    "zf2",
+    "twig"
+  ],
+  "homepage": "http://framework.zend.com/",
+  "require": {
+    "php": ">=5.5",
+    "zendframework/zendframework": "~2.5",
+    "doctrine/doctrine-orm-module": "0.*",
+    "zendframework/zftool": "dev-master",
+    "zf-commons/zfc-twig": "dev-master",
+    "zendframework/zend-expressive-twigrenderer": "^1.1"
+  },
+  "autoload": {
+    "psr-0": {
+      "ZfcTwig\\": "src/"
+    }
+  },
+  "require-dev": {
+    "zendframework/zend-view": "*"
+  }
+}
